@@ -1,0 +1,84 @@
+<svg width="800" height="110" viewBox="0 0 800 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0d0d12"/>
+      <stop offset="100%" stop-color="#100d17"/>
+    </linearGradient>
+    <!-- pill gradients per theme -->
+    <linearGradient id="pill-pink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F75C7E" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F75C7E" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="pill-amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="pill-purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="pill-teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="pill-glow-pink">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="110" rx="12" fill="url(#bg4)"/>
+  <rect width="800" height="110" rx="12" fill="none" stroke="#F75C7E" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Label -->
+  <text x="26" y="30" font-family="'Courier New', monospace" font-size="9" fill="#F75C7E" fill-opacity="0.45" letter-spacing="2">// RUNNING ON</text>
+
+  <!-- Pill 1: F1 -->
+  <rect x="20" y="42" width="110" height="36" rx="18" fill="url(#pill-pink)" stroke="#F75C7E" stroke-width="0.8" stroke-opacity="0.5">
+    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="40" cy="60" r="5" fill="#F75C7E" fill-opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="82" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" font-weight="bold">F1 RAGE</text>
+
+  <!-- Pill 2: Football -->
+  <rect x="148" y="42" width="138" height="36" rx="18" fill="url(#pill-amber)" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3.5s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="168" cy="60" r="5" fill="#f59e0b" fill-opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="3.5s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="228" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#f59e0b" font-weight="bold">FOOTBALL</text>
+
+  <!-- Pill 3: True Crime -->
+  <rect x="304" y="42" width="152" height="36" rx="18" fill="url(#pill-purple)" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="324" cy="60" r="5" fill="#a78bfa" fill-opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="394" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#a78bfa" font-weight="bold">TRUE CRIME</text>
+
+  <!-- Pill 4: Sarcasm -->
+  <rect x="474" y="42" width="130" height="36" rx="18" fill="url(#pill-pink)" stroke="#F75C7E" stroke-width="0.8" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="2.8s" begin="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="494" cy="60" r="5" fill="#F75C7E" fill-opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="2.8s" begin="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="552" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" font-weight="bold">SARCASM</text>
+
+  <!-- Pill 5: Coffee -->
+  <rect x="622" y="42" width="116" height="36" rx="18" fill="url(#pill-teal)" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3.2s" begin="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="642" cy="60" r="5" fill="#34d399" fill-opacity="0.8">
+    <animate attributeName="r" values="4;6;4" dur="3.2s" begin="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="700" y="65" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#34d399" font-weight="bold">CAFFEINE</text>
+
+  <!-- Bottom tagline -->
+  <text x="400" y="96" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.2" letter-spacing="1">and an uncomfortable amount of ambition</text>
+</svg>

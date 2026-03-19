@@ -1,0 +1,76 @@
+<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0d0d12"/>
+      <stop offset="50%"  stop-color="#0f101a"/>
+      <stop offset="100%" stop-color="#0d0d12"/>
+    </linearGradient>
+    <linearGradient id="line-fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F75C7E" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#F75C7E" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#F75C7E" stop-opacity="1"/>
+      <stop offset="70%"  stop-color="#F75C7E" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F75C7E" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="txt-glow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="160" rx="12" fill="url(#bg3)"/>
+  <rect width="800" height="160" rx="12" fill="none" stroke="#F75C7E" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Horizontal glow lines top/bottom -->
+  <rect x="0" y="1"   width="800" height="1.5" fill="url(#line-fade)" rx="1">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0" y="157" width="800" height="1.5" fill="url(#line-fade)" rx="1">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Goal items — typed text aesthetic -->
+  <!-- item 1 -->
+  <text x="60" y="42" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" fill-opacity="0.6">$</text>
+  <text x="76" y="42" font-family="'Courier New', monospace" font-size="12" fill="#e8e8f0" fill-opacity="0">
+    build AI + full-stack that actually matters. not a to-do app.
+    <animate attributeName="fill-opacity" values="0;0;1;1" dur="0.1s" begin="0.2s" fill="freeze"/>
+  </text>
+
+  <!-- item 2 -->
+  <text x="60" y="65" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" fill-opacity="0.6">$</text>
+  <text x="76" y="65" font-family="'Courier New', monospace" font-size="12" fill="#e8e8f0" fill-opacity="0">
+    get dangerously good at DSA. not survival-good. actually dangerous.
+    <animate attributeName="fill-opacity" values="0;0;1;1" dur="0.1s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- item 3 -->
+  <text x="60" y="88" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" fill-opacity="0.6">$</text>
+  <text x="76" y="88" font-family="'Courier New', monospace" font-size="12" fill="#e8e8f0" fill-opacity="0">
+    win a hackathon. sleep is optional. regret is not.
+    <animate attributeName="fill-opacity" values="0;0;1;1" dur="0.1s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- item 4 -->
+  <text x="60" y="111" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" fill-opacity="0.6">$</text>
+  <text x="76" y="111" font-family="'Courier New', monospace" font-size="12" fill="#e8e8f0" fill-opacity="0">
+    land a role where the work is hard and honest about it.
+    <animate attributeName="fill-opacity" values="0;0;1;1" dur="0.1s" begin="1.1s" fill="freeze"/>
+  </text>
+
+  <!-- item 5 -->
+  <text x="60" y="134" font-family="'Courier New', monospace" font-size="12" fill="#F75C7E" fill-opacity="0.6">$</text>
+  <text x="76" y="134" font-family="'Courier New', monospace" font-size="12" fill="#e8e8f0" fill-opacity="0">
+    make something and think: that wouldn't exist without me.
+    <animate attributeName="fill-opacity" values="0;0;1;1" dur="0.1s" begin="1.4s" fill="freeze"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="76" y="122" width="7" height="14" rx="1" fill="#F75C7E">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" begin="1.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0,12; 0,12; 0,12; 0,12; 0,12; 0,-11"
+      keyTimes="0;0.28;0.56;0.7;0.84;1"
+      dur="1.5s" fill="freeze"/>
+  </rect>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f0f17"/>
+      <stop offset="100%" stop-color="#0b0b11"/>
+    </linearGradient>
+    <!-- bar gradients -->
+    <linearGradient id="bar-pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F75C7E" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F75C7E"/>
+    </linearGradient>
+    <linearGradient id="bar-amber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="bar-purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="bar-red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <filter id="glow-bar">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="200" rx="12" fill="url(#bg)"/>
+  <!-- subtle top border -->
+  <rect width="800" height="200" rx="12" fill="none" stroke="#F75C7E" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Card 1: Confidence -->
+  <rect x="20" y="20" width="170" height="160" rx="10" fill="#13131f" stroke="#F75C7E" stroke-width="0.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="105" y="50"  text-anchor="middle" font-family="'Courier New', monospace" font-size="9"  fill="#F75C7E" fill-opacity="0.5" letter-spacing="1.5">CONFIDENCE</text>
+  <text x="105" y="88"  text-anchor="middle" font-family="Arial Black, sans-serif"    font-size="32" fill="#F75C7E" font-weight="900">38%</text>
+  <rect x="36" y="108" width="138" height="4" rx="2" fill="#1e1e2e"/>
+  <rect x="36" y="108" width="0"   height="4" rx="2" fill="url(#bar-pink)" filter="url(#glow-bar)">
+    <animate attributeName="width" values="0;52;52" dur="1.5s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+  </rect>
+  <text x="105" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.25">mostly faked</text>
+  <text x="105" y="152" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.2">convincingly tho</text>
+
+  <!-- Card 2: Bugs -->
+  <rect x="210" y="20" width="170" height="160" rx="10" fill="#13131f" stroke="#ef4444" stroke-width="0.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="2.8s" begin="0.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="295" y="50"  text-anchor="middle" font-family="'Courier New', monospace" font-size="9"  fill="#ef4444" fill-opacity="0.5" letter-spacing="1.5">BUG COUNTER</text>
+  <text x="295" y="88"  text-anchor="middle" font-family="Arial Black, sans-serif"    font-size="32" fill="#ef4444" font-weight="900">∞</text>
+  <rect x="226" y="108" width="138" height="4" rx="2" fill="#1e1e2e"/>
+  <rect x="226" y="108" width="0"   height="4" rx="2" fill="url(#bar-red)" filter="url(#glow-bar)">
+    <animate attributeName="width" values="0;138;138" dur="1.2s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+  </rect>
+  <text x="295" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.25">i wrote them tho</text>
+  <text x="295" y="152" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.2">so i understand them</text>
+
+  <!-- Card 3: Sleep -->
+  <rect x="400" y="20" width="170" height="160" rx="10" fill="#13131f" stroke="#f59e0b" stroke-width="0.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="4.2s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="485" y="50"  text-anchor="middle" font-family="'Courier New', monospace" font-size="9"  fill="#f59e0b" fill-opacity="0.5" letter-spacing="1.5">SLEEP TRACKER</text>
+  <text x="485" y="88"  text-anchor="middle" font-family="Arial Black, sans-serif"    font-size="32" fill="#f59e0b" font-weight="900">17%</text>
+  <rect x="416" y="108" width="138" height="4" rx="2" fill="#1e1e2e"/>
+  <rect x="416" y="108" width="0"   height="4" rx="2" fill="url(#bar-amber)" filter="url(#glow-bar)">
+    <animate attributeName="width" values="0;23;23" dur="1.5s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+  </rect>
+  <text x="485" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.25">deadline season</text>
+  <text x="485" y="152" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.2">indefinitely</text>
+
+  <!-- Card 4: DSA -->
+  <rect x="590" y="20" width="190" height="160" rx="10" fill="#13131f" stroke="#a78bfa" stroke-width="0.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.2;0.6;0.2" dur="3.8s" begin="1.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="685" y="50"  text-anchor="middle" font-family="'Courier New', monospace" font-size="9"  fill="#a78bfa" fill-opacity="0.5" letter-spacing="1.5">DSA GRIND</text>
+  <text x="685" y="88"  text-anchor="middle" font-family="Arial Black, sans-serif"    font-size="32" fill="#a78bfa" font-weight="900">50%</text>
+  <rect x="606" y="108" width="158" height="4" rx="2" fill="#1e1e2e"/>
+  <rect x="606" y="108" width="0"   height="4" rx="2" fill="url(#bar-purple)" filter="url(#glow-bar)">
+    <animate attributeName="width" values="0;79;79" dur="1.5s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1"/>
+  </rect>
+  <text x="685" y="135" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.25">suffering daily</text>
+  <text x="685" y="152" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#ffffff" fill-opacity="0.2">with purpose tho</text>
+</svg>
