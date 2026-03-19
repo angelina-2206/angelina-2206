@@ -24,12 +24,8 @@
 
 ## 🧰 Tech Stack  
 
-<p>
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Backend-Java-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Core-DSA-red?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-AI%2FML-green?style=for-the-badge"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,java,python,js,html,css,git,github,vscode&theme=dark" />
 </p>
 
 ---
