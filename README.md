@@ -62,11 +62,14 @@ Bugs: ███████████
 
 ---
 
-## 🐍 Contribution Snake  
+## 🎮 Eating My Contributions One Commit at a Time  
 
-<p align="center">
-  <img src="https://github.com/angelina-2206/angelina-2206/blob/output/github-contribution-grid-snake.svg" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/angelina-2206/angelina-2206/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/angelina-2206/angelina-2206/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/angelina-2206/angelina-2206/output/pacman-contribution-graph.svg">
+</picture>
+
 
 ---
 
