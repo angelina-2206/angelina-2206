@@ -5,7 +5,10 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=F75C7E&height=80&section=header"/>
 </p>
-# 👋 Hey, I’m Angelina — figuring things out by building them 
+
+---
+
+## 👋 Hey, I’m Angelina — figuring things out by building them 
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=F75C7E&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+in+Progress;Exploring+AI+%2B+Web;Learning+by+building+things;Trying+to+make+things+work+(most+days)" />
@@ -69,9 +72,13 @@ Bugs: ███████████
 
 ## 🤝 Let’s Connect  
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/angelina-chatterjee/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-blue?style=for-the-badge&logo=linkedin"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:angelinachatterjee2206@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="40"/>
   </a>
 </p>
 
