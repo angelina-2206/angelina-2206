@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/angelina-2206/angelina-2206/33f0e5cedb569adc45a3509e505597e646e2a624/banner.png" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F75C7E&height=80&section=header"/>
+</p>
 # 👋 Hey, I’m Angelina — figuring things out by building them 
 
 <p align="center">
@@ -8,7 +15,7 @@
 
 ## ⚡ About Me  
 
-- 🧠 I solve problems that make people go *“why doesn’t this exist already?”*  
+- 🧠 I solve problems that make people go *“Why doesn’t this exist already?”*  
 - 🛠️ I build more than I plan (execution > overthinking… sometimes)  
 - 🚀 Hackathons + chaos + ambition = my comfort zone  
 - 🎯 I prefer real products over “coming soon” ideas  
