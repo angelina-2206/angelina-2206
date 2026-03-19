@@ -19,15 +19,16 @@ I build things. I break things. I fix the things I broke — occasionally in tha
 
 ## who I am when I'm not staring at a compiler error
 
-- I write code to solve real problems. Not demo-ware. Not "coming soon." Actual, working things.
-- I'm convinced the best engineers are the ones who stay genuinely curious — so I stay curious, even when it's embarrassing.
-- I watch F1 and football with the same energy I debug — obsessively, with strong opinions, and occasional despair.
-- I read about serial killers and true crime at night and then wonder why I can't sleep. Classic.
-- My coping mechanism is sarcasm. My backup coping mechanism is also sarcasm.
-- I'm here to get better at DSA, build things that matter, and eventually land a job where I don't feel like an imposter *every single day* (just most days — progress).
+- Codes to solve real problems. Not demo-ware. Actual working things — ships > ships-it-someday.
+- Watches F1 and football with the same obsession she debugs. Strong opinions. Occasional despair.
+- Reads about serial killers at night, then wonders why sleep is a myth.
+- Copes with literally everything through sarcasm. It's a lifestyle, not a phase.
+- Here to get genuinely good — at DSA, at building things that matter, at not Googling "how to exit vim" in 2026.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNhYzBhNWI5NzBkZWE4ZWQ5YzRkYzlkYWEwMzQzYWM4Y2NjZjJlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="320"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNhYzBhNWI5NzBkZWE4ZWQ5YzRkYzlkYWEwMzQzYWM4Y2NjZjJlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="290"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTU4YTFhNDJkNzIwZmFmODljODBmMjY5Y2FiMzc2YzUwNjM4MjM4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ule4vhcY1xEKQ/giphy.gif" width="290"/>
 </p>
 
 ---
@@ -38,7 +39,82 @@ I build things. I break things. I fix the things I broke — occasionally in tha
   <img src="https://skillicons.dev/icons?i=react,java,python,js,html,css,git,github,vscode&theme=dark" />
 </p>
 
-Nothing fancy. Just whatever actually solves the problem.
+---
+
+## the dashboard nobody asked for
+
+<table align="center" border="0" cellpadding="8" cellspacing="0">
+<tr>
+<td align="center">
+
+```
+┌─────────────────────┐
+│   CONFIDENCE LEVEL  │
+│  ▓▓▓▓░░░░░░░  38%  │
+│    (mostly faked)   │
+└─────────────────────┘
+```
+
+</td>
+<td align="center">
+
+```
+┌─────────────────────┐
+│    BUG COUNTER      │
+│  ▓▓▓▓▓▓▓▓▓▓▓  MAX  │
+│  (I wrote them tho) │
+└─────────────────────┘
+```
+
+</td>
+<td align="center">
+
+```
+┌─────────────────────┐
+│    SLEEP TRACKER    │
+│  ▓▓░░░░░░░░░  17%  │
+│  (deadline season)  │
+└─────────────────────┘
+```
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+```
+┌─────────────────────┐
+│   F1 KNOWLEDGE      │
+│  ▓▓▓▓▓▓▓▓▓▓▓  MAX  │
+│  (will rant. free.) │
+└─────────────────────┘
+```
+
+</td>
+<td align="center">
+
+```
+┌─────────────────────┐
+│    COFFEE INTAKE    │
+│  ▓▓▓▓▓▓▓▓░░░  80%  │
+│ (still not enough)  │
+└─────────────────────┘
+```
+
+</td>
+<td align="center">
+
+```
+┌─────────────────────┐
+│   DSA GRIND MODE    │
+│  ▓▓▓▓▓░░░░░░  50%  │
+│  (suffering daily)  │
+└─────────────────────┘
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -51,29 +127,15 @@ Nothing fancy. Just whatever actually solves the problem.
 
 ---
 
-## current status
-
-```
-writing clean code       ████████░░░░   getting there
-DSA grind                ██████░░░░░░   ongoing suffering
-confidence               ████░░░░░░░░   faking it till I make it
-bugs introduced today    ████████████   it was a productive day
-sleep                    ██░░░░░░░░░░   send help
-```
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWQ4NzY0YzlhYTQ3NDE1ZDM2NWE0NWZlYjY3OGE5NDg2NzZkMTU1ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HgwGsXF0aiGY/giphy.gif" width="280"/>
-</p>
-
----
-
 ## 2026 — what I'm actually working toward
 
-- Build something AI + full-stack that solves a real problem (not a to-do app, I beg)
-- Get genuinely good at DSA — not just "I survived LeetCode" good
-- Win a hackathon. Or at least not finish last.
-- Land a role where I'm learning something hard every day
-- Write code I'm not embarrassed to show people six months later
+```
+[ ] build AI + full-stack product that isn't just another to-do app
+[ ] get genuinely good at DSA (not just "survived leetcode" good)
+[ ] win a hackathon. or at least not finish last.
+[ ] land a role where I'm learning something hard every day
+[ ] write code I won't cringe at six months later (optimistic, I know)
+```
 
 ---
 
@@ -87,18 +149,12 @@ sleep                    ██░░░░░░░░░░   send help
 
 ---
 
-## things I care about (in no particular order)
-
-**Formula 1** — I have opinions about team strategies that no one asked for and I will share them anyway.
-
-**Football** — same energy, different sport.
-
-**True crime + serial killer deep dives** — I know more about criminal psychology than is probably normal. I've made peace with it.
-
-**Building things that actually work** — not prototypes, not MVPs that are never touched again. Real, functional, useful things.
+## when the code finally works vs when a new bug appears immediately
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjQwNmQ5MTk2YTM2OWNjYmY5NTA5MDU2OGMxYmY5NTExMjlmNDlkMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2K5jinAlChoCLS/giphy.gif" width="260"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM3MDgzZWFhNTYzMzQ0NzAzOGI1ZjY3NjZkNjY3N2ZhNTkxNDk5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ycc4GfMfxSB3q/giphy.gif" width="260"/>
 </p>
 
 ---
@@ -121,4 +177,4 @@ sleep                    ██░░░░░░░░░░   send help
   <img src="https://capsule-render.vercel.app/api?type=waving&color=F75C7E&height=80&section=footer"/>
 </p>
 
-<p align="center"><i>still building. still learning. still not satisfied — which is probably the point.</i></p>  
+<p align="center"><i>still building. still learning. still not satisfied — which is probably the point.</i></p>
