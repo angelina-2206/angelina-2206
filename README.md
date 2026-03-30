@@ -68,7 +68,7 @@ working on building things that matter, understanding systems properly, and not 
 ## what I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,java,python,js,html,css,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,java,python,c,c++,r,js,html,css,git,github,vscode&theme=dark" />
 </p>
 
 Whatever it takes to make the thing work. Stack is a tool, not a personality.
