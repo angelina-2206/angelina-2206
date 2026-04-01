@@ -65,12 +65,12 @@
 
   <!-- Main name -->
   <text x="400" y="72" text-anchor="middle" font-family="'Syne', 'Arial Black', sans-serif" font-size="44" font-weight="800" fill="url(#text-grad)" letter-spacing="-1" filter="url(#glow-soft)">
-    Angelina.
+    Angelina
     <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
   </text>
 
   <!-- Tagline -->
-  <text x="400" y="98" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#F75C7E" fill-opacity="0.55" letter-spacing="3">NOT ORDINARY · ON PURPOSE</text>
+  <text x="400" y="98" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#F75C7E" fill-opacity="0.55" letter-spacing="3"></text>
 
   <!-- Tiny pulse dots on border -->
   <circle cx="400" cy="1" r="2" fill="#F75C7E">
