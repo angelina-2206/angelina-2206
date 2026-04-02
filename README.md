@@ -17,8 +17,6 @@ I overthink, ship anyway, and care about building things that actually matter. *
 
 drawn to systems with stakes - code, F1, football, criminal psychology. places where mediocrity shows instantly.
 
-trying to be the kind of engineer who *builds something that wouldn’t exist without me*. not there yet. working on it.
-
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNhYzBhNWI5NzBkZWE4ZWQ5YzRkYzlkYWEwMzQzYWM4Y2NjZjJlOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="280"/>
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTU4YTFhNDJkNzIwZmFmODljODBmMjY5Y2FiMzc2YzUwNjM4MjM4ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ule4vhcY1xEKQ/giphy.gif" width="280"/>
@@ -84,7 +82,7 @@ Whatever it takes to make the thing work. Stack is a tool, not a personality.
 
 ---
 
-## 2026 — what I'm actually building toward
+## what I'm actually building toward
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/angelina-2206/angelina-2206/main/svgs/banner-goals.svg" width="100%"/>
