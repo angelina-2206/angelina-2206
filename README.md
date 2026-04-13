@@ -40,7 +40,7 @@ that's the thing I'm chasing.
 
 I build because not building feels worse.
 
-F1, football - I watch for the margins. pressure has a way of revealing who’s real.
+F1, football - I watch for the margins. Pressure has a way of revealing who’s real.
 criminal psychology, because people are rarely what they pretend to be.
 
 working on building things that matter, understanding systems properly, and not confusing movement with meaning.
