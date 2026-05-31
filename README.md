@@ -76,8 +76,7 @@ Whatever it takes to make the thing work. Stack is a tool, not a personality.
 ## numbers
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=angelina-2206&show_icons=true&theme=radical&hide_border=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=angelina-2206&theme=radical&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.shion.dev/api?username=angelina-2206&show_icons=true&theme=radical&hide_border=true" height="165"/>  <img src="https://github-readme-streak-stats.herokuapp.com/?user=angelina-2206&theme=radical&hide_border=true" height="165"/>
 </p>
 
 ---
