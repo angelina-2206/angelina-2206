@@ -92,12 +92,6 @@ Whatever it takes to make the thing work. Stack is a tool, not a personality.
 
 ## currently oscillating between
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjQwNmQ5MTk2YTM2OWNjYmY5NTA5MDU2OGMxYmY5NTExMjlmNDlkMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2K5jinAlChoCLS/giphy.gif" width="250"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTM3MDgzZWFhNTYzMzQ0NzAzOGI1ZjY3NjZkNjY3N2ZhNTkxNDk5ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ycc4GfMfxSB3q/giphy.gif" width="250"/>
-</p>
-
 <p align="center"><i>"I know exactly what I'm doing"</i> &nbsp;↔&nbsp; <i>"I have absolutely no idea what I'm doing"</i></p>
 
 *(both states produce commits. the second one produces better comments.)*
@@ -128,9 +122,6 @@ Whatever it takes to make the thing work. Stack is a tool, not a personality.
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=F75C7E&height=80&section=footer"/>
-</p>
 
 <p align="center">
   <i>still building. still not satisfied. still not stopping.</i><br/>
